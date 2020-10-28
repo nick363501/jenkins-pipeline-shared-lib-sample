@@ -2,4 +2,5 @@
 
 def call(body) {
     echo "Start Deploy"
+    echo "${BUILD_URL}"
 }
