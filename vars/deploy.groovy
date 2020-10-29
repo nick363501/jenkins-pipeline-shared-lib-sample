@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 def call(body) {
-    echo "Start Deploy Master Branch"
+    echo "Start Deploy New Feature Branch"
 
     new Deployer(script:this).run()
 
